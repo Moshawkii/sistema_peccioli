@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sistema_peccioli_2/page/home_page.dart';
-import 'package:sistema_peccioli_2/repository/repositories.dart';
+import 'package:sistema_peccioli/page/home_page.dart';
+import 'package:sistema_peccioli/repository/repositories.dart';
 
 void main() {
   runApp(App());

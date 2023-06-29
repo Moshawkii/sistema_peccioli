@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sistema_peccioli_2/repository/repositories.dart';
-import 'package:sistema_peccioli_2/widgets/home_widget.dart';
+import 'package:sistema_peccioli/repository/repositories.dart';
+import 'package:sistema_peccioli/widgets/home_widget.dart';
 
 import 'menu_page.dart';
 

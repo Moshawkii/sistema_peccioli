@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:sistema_peccioli_2/blocs/app_blocs.dart';
-import 'package:sistema_peccioli_2/blocs/app_events.dart';
-import 'package:sistema_peccioli_2/blocs/app_state.dart';
-import 'package:sistema_peccioli_2/repository/repositories.dart';
-import 'package:sistema_peccioli_2/responses/home_response.dart';
+import 'package:sistema_peccioli/blocs/app_blocs.dart';
+import 'package:sistema_peccioli/blocs/app_events.dart';
+import 'package:sistema_peccioli/blocs/app_state.dart';
+import 'package:sistema_peccioli/repository/repositories.dart';
+import 'package:sistema_peccioli/responses/home_response.dart';
 
 class HomeWidget extends StatelessWidget {
   const HomeWidget({super.key});

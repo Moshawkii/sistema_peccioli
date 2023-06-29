@@ -1,6 +1,6 @@
-import 'package:sistema_peccioli_2/models/gallery_model.dart';
-import 'package:sistema_peccioli_2/models/news_model.dart';
-import 'package:sistema_peccioli_2/models/show_model.dart';
+import 'package:sistema_peccioli/models/gallery_model.dart';
+import 'package:sistema_peccioli/models/news_model.dart';
+import 'package:sistema_peccioli/models/show_model.dart';
 
 class HomeResponse {
   bool? success;

@@ -1,7 +1,6 @@
 import 'dart:convert';
 import 'package:http/http.dart';
-import 'package:sistema_peccioli_2/responses/home_response.dart';
-
+import 'package:sistema_peccioli/responses/home_response.dart';
 
 class Repository {
   final Map<String, String> _authParams = {
@@ -13,7 +12,6 @@ class Repository {
   };
 
   String apiUrl = 'https://peccioli2.dieffetech.it/web';
-
 
   Future<HomeResponse?> getHome() async {
     final tokenResponse = await post(
